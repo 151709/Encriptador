@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+ <html lang="es">
+    
+    <head>
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="estilos.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400&display=swap" rel="stylesheet">
+        <title>Encriptador</title>
+    </head>
+    <header class="logo">
+        <img src="Logo.png" alt="Logo Alura">
+    </header>
+    <body>
+        <main>
+            <section class="sec1">
+                <textarea cols="20" rows="10" id="mensaje" placeholder="Ingrese su mensaje"></textarea>
+                <div class="contenedor-errores"></div>
+                <div>
+                    <h6 class="informacion">Solo letras minusculas y sin acentos</h6>
+                </div>
+                <div class="tarjeta num1">
+                <div class="contenedor-botones">
+                    <button id="encriptar">Encriptar</button>
+                    <button id="desencriptar">Desencriptar</button>
+                </div>
+                </div>
+            </section>
+            <section class="sec2">
+                <div class="tarjeta num2">
+                    <div class="contenedor-munhieco">
+                        <img src="Muñeco.png" alt="Muñeco">
+                    </div>
+                    <div class="parrafo">
+                        <h6 class="h6">Ningun mensaje fue encontrado</h6>
+                    </div>
+                    <div>
+                        <div class="resultado">
+                            <textarea id="text-resultado" cols="18" rows="14" placeholder="Mensaje encriptado"></textarea>
+                        </div>
+                        <div class="contenedor-copiar">
+                            <button id="copiar">Copiar</button>
+                        </div>
+                    </div>
+            </section>
+        </main>
+        <script src="codigo.js"></script>
+    </body>
+    <footer>
+        <p class="pie-pagina">Encriptador: Andres López</p>
+    </footer>
+</html>
+
